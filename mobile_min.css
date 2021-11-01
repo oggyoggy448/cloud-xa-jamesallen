@@ -1,0 +1,2425 @@
+/*!! ver.1.1 Mobile.css */
+#BodyContainer {
+  position: relative;
+  z-index: 1;
+}
+.ScrolledContainer {
+  z-index: 1;
+  position: relative;
+}
+.disable-scroll.body-with-popup footer {
+  position: relative;
+  z-index: 1;
+}
+.disable-scroll.body-with-popup .mobile-funnel-container {
+  z-index: 1;
+}
+.disable-scroll.body-with-popup .ScrolledContainer {
+  z-index: 10;
+}
+.disable-scroll.body-with-popup #BodyContainerMobile {
+  z-index: 1001;
+}
+.disable-scroll.body-with-popup-IOS #PromotionHeader {
+  display: none;
+}
+html {
+  height: 100%;
+}
+.disable-scroll.body-with-popup-IOS {
+  height: calc(100% + 100px);
+}
+.disable-scroll.body-with-popup-IOS #BodyContainerMobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+body.disable-scroll {
+  overflow: hidden !important;
+}
+details {
+  display: none;
+}
+body.ZoomIn {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+#BodyContainerMobile {
+  position: relative;
+  z-index: 1;
+}
+#cookie-bar-container {
+  position: relative;
+  z-index: 10000;
+}
+.justify-align {
+  text-align: justify;
+  font-size: 0.1px;
+}
+.justify-align > *:not(span) {
+  display: inline-block;
+  float: none !important;
+  font-size: 1rem;
+  vertical-align: top;
+}
+.justify-align:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.SecondScrolledContainer {
+  -webkit-overflow-scrolling: touch;
+}
+.ScrolledContainer {
+  -moz-box-sizing: border-box;
+  border-top: medium none !important;
+  clear: both;
+}
+.button-x {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+.button-x:before {
+  content: "î˜§";
+  font-family: JamesallenFonts;
+  font-size: 15px;
+  cursor: pointer;
+}
+.Loading {
+  border-color: #848484 #848484 #fff #fff;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 1px;
+  height: 20px;
+  margin: 10% auto;
+  width: 20px;
+  -webkit-animation: mobileLoader 0.6s infinite linear;
+  -moz-animation: mobileLoader 0.6s infinite linear;
+  -ms-animation: mobileLoader 0.6s infinite linear;
+  -o-animation: mobileLoader 0.6s infinite linear;
+  animation: mobileLoader 0.6s infinite linear;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -ms-user-select: none;
+  background-position: center top;
+  background-repeat: no-repeat;
+  color: #656565;
+  font-family: Nunito Sans, Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: normal;
+  margin: 0 auto 14px;
+  width: 100%;
+  margin-bottom: 0;
+}
+body .ui-loader {
+  display: none;
+}
+input[type="text"],
+input[type="submit"],
+input[type="number"],
+input[type="password"],
+select,
+input[type="checkbox"],
+input[type="email"],
+textarea {
+  box-sizing: border-box;
+  height: 30px;
+  width: 100%;
+  padding-left: 1em;
+}
+.UnSelectable * {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -ms-user-select: none;
+}
+.smallButton {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#626262),
+    to(#585858)
+  ) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#626262',endColorstr='#585858') !important;
+  background: -ms-linear-gradient(
+    top left,
+    #626262 0%,
+    #585858 100%
+  ) !important;
+  background: -moz-linear-gradient(center top, #626262, #585858) repeat scroll 0
+    0 transparent !important;
+  background: -o-linear-gradient(90deg, #626262, #585858);
+  -moz-user-select: none !important;
+  border: 0 none !important;
+  box-shadow: 0 0 2px #757575 !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  font-size: 10px !important;
+  height: 23px !important;
+  line-height: 23px !important;
+  min-width: 60px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  text-shadow: 0 -1px #393939 !important;
+  text-transform: uppercase !important;
+}
+.bigButton.ButtonDisabled {
+  background: #808080 !important;
+}
+.bigButton {
+  background: -o-linear-gradient(90deg, #626262, #585858);
+  background: -moz-linear-gradient(center top, #626262, #585858) repeat scroll 0
+    0 transparent !important;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#626262),
+    to(#585858)
+  ) !important;
+  background: -ms-linear-gradient(
+    top left,
+    #626262 0%,
+    #585858 100%
+  ) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#626262',endColorstr='#585858') !important;
+  -moz-user-select: none !important;
+  border: 0 none !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  background: #ff8080 !important;
+}
+form label.error {
+  color: #f00;
+}
+#greyOut.Highest {
+  z-index: 999;
+}
+#greyOut {
+  margin-top: -20px;
+  display: none;
+  background-color: #000;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  opacity: 0.48;
+  z-index: 105;
+  padding-bottom: 20px;
+}
+#hideContent {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 2000;
+  top: -1px;
+  display: none;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+}
+.open-side-menu #hideContent {
+  display: block;
+}
+itemdetails {
+  display: none;
+}
+.RightEdgeFadeOut:after {
+  background-image: linear-gradient(to left, #fff, rgba(255, 255, 255, 0) 35%);
+  content: "";
+  height: 75%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 35%;
+  pointer-events: none;
+}
+#MobilePane {
+  position: relative;
+}
+#MobilePane .RoundedConrners,
+#MobilePane .Gallery,
+#MobilePane .ItemPage,
+#MobilePane .MobileHeader,
+.mobile-funnel-container {
+  width: 95%;
+  margin: 0 auto;
+}
+.mobile-funnel-container {
+  position: relative;
+  z-index: 21;
+}
+#MainContainer {
+  min-height: 93vh;
+}
+#MobilePane .MobileHeader {
+  padding: 6px 0;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.packaging-details {
+  color: #fff;
+  left: 50%;
+  line-height: 200%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#MobilePane .MobileHeader .ja-logo {
+  float: left;
+  padding-top: 3px;
+}
+#MobilePane .MobileHeader .ja-logo::before {
+  content: "î˜¾";
+  float: left;
+  font-size: 2em;
+  color: #ff8080;
+}
+#MobilePane .MobileHeader .ja-logo::after {
+  content: "î˜¿";
+  float: left;
+  float: left;
+  font-size: 11em;
+  line-height: 0.2em;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+.mobile-funnel .sale-price:before,
+.complete-ring-container .sale-price:before,
+.WishListDescription .sale-price:before {
+  position: static;
+  font-size: 10px;
+}
+#MobilePane .RoundedConrners .Title {
+  -moz-box-sizing: inherit;
+  border-bottom: 1px solid #c7c7c7;
+  font-size: 0.9em;
+  padding: 0.5em 1em;
+  height: auto;
+  text-transform: uppercase;
+}
+#MobilePane .RoundedConrners .Title {
+  font-size: 1.9em;
+  text-align: center;
+}
+#MobilePane .specialIcons.canadaMark {
+  border-radius: 0;
+  color: #05568e;
+  font-size: 34px;
+  height: 15px;
+  line-height: 15px;
+  text-indent: -5px;
+  width: 22px;
+  position: absolute;
+  font-family: jamesallenfonts;
+  top: 20px;
+  left: 7px;
+  z-index: 100;
+}
+#MobilePane .specialIcons.trueLabel {
+  background: none;
+  top: 12px;
+  color: #ff8080 !important;
+}
+#MobilePane .specialIcons.argyle {
+  border: medium none;
+  border-radius: 25px;
+  color: #ff8080;
+  font-size: 2.5em;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  text-indent: 0;
+  width: 25px;
+  font-family: "JamesAllenFonts";
+  position: absolute;
+  left: 0.5em;
+  bottom: 0.5em;
+  z-index: 200;
+}
+#MobilePane .Loading {
+  width: 100px;
+  height: 100px;
+}
+#MobilePane .Loader {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 102;
+}
+.Loader.Bigger {
+  left: 18%;
+  position: absolute;
+  top: 20%;
+  width: 300px;
+  z-index: 9;
+  display: none;
+}
+.MainLoader {
+  display: none;
+  height: 100px;
+  margin-bottom: inherit;
+  margin-right: -50px;
+  margin-top: inherit;
+  position: fixed;
+  right: 50%;
+  top: 27%;
+  width: 100px;
+  z-index: 1000;
+}
+#MobilePane .WhiteMask {
+  background-color: #fff;
+  height: 100%;
+  opacity: 0.6;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 101;
+}
+#MobilePane .NoContainer {
+  border: medium none !important;
+  border-radius: 0;
+  box-shadow: none;
+  margin-left: 0 !important;
+  width: 100% !important;
+}
+#MobilePane .NoContainer .Title {
+  border: medium none;
+  font-size: 2em;
+  text-align: center;
+}
+.EmptyMessage {
+  background-color: #eee !important;
+  border: medium none !important;
+  text-align: center;
+}
+#MobilePane .RoundedConrners .BottomContainer {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.EmptyMessage .Text {
+  color: #b8b8b8;
+  font-size: 1.5em;
+  margin-bottom: 67px;
+  text-align: center;
+}
+.EmptyMessage .EmptyCartImage {
+  background: url("https://ion.r2net.com/images/mobiletest/Cart_empty.png")
+    repeat scroll 0 0 rgba(0, 0, 0, 0);
+  height: 70px;
+  margin: 18% auto 16px;
+  width: 90px;
+  background-size: 100%;
+}
+.EmptyMessage .Buttons {
+  height: 49px;
+  margin: 14px auto auto;
+  width: 97px;
+}
+.EmptyMessage .bigButton {
+  display: inline-block;
+  margin: auto;
+  padding: 10px;
+}
+#MobilePane input[type="radio"],
+#MobilePane input[type="checkbox"] {
+  width: auto;
+  height: auto;
+}
+#MobilePane .Items select {
+  width: auto;
+}
+#MobilePane input.Empty,
+#MobilePane select.Empty {
+  color: #969696;
+  font-style: italic;
+}
+#MobilePane .RoundedConrners .Review div {
+  clear: none;
+  display: inline-block;
+  float: none;
+}
+.bigButton.Disabled {
+  background: none repeat scroll 0 0 #e8e8e8 !important;
+  box-shadow: none !important;
+  text-indent: -300%;
+  position: relative;
+}
+.bigButton.Disabled:after {
+  border-color: #848484 #848484 #fff #fff;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 1px;
+  bottom: 0;
+  content: "";
+  height: 20px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  border: none;
+}
+#MobilePane .RoundedConrners .Review .bigButton {
+  float: right;
+  padding: 8px 6px;
+}
+.MainIcons {
+  float: right;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+.MainIcons li {
+  float: right;
+  margin-left: 0.5em;
+}
+.MainIcons > li:last-child {
+  margin-left: 0;
+}
+.MainIcons li a {
+  display: inline-block;
+}
+.MainIcons .Cart,
+.MainIcons .Fav,
+.MainIcons .Login,
+.MainIcons .Search,
+.MainIcons .Chat,
+#MobilePane .Phone,
+#MobilePane .Chat,
+#MobilePane .Skype,
+#MobilePane .Email,
+#MobilePane .ShipsBy,
+#MobilePane .DiamondProp,
+#MobilePane .Reviews,
+#MobilePane .RealJewel,
+#MobilePane .Redered {
+  background-image: url("https://ion.r2net.com/images/mobiletest/sprite-test.png");
+  height: 81px;
+  width: 105px;
+}
+#MobilePane #reviewOrder .Phone {
+  background-image: none;
+  height: 0;
+  width: 0;
+  display: none;
+}
+#MobilePane .Reviews {
+  background-position: -186px -420px;
+  display: inline-block;
+  float: left;
+  position: absolute;
+  width: 89px;
+}
+#MobilePane .DiamondProp {
+  background-position: -103px -420px;
+  display: inline-block;
+  float: left;
+}
+#MobilePane .DiamondProp.NotVisible {
+  visibility: hidden;
+}
+#MobilePane .CanBeSet {
+  display: block;
+  padding-left: 7px;
+}
+.Details table td {
+  text-transform: capitalize;
+}
+#MobilePane .ShipsBy {
+  background-position: -13px -420px;
+  display: inline-block;
+  float: left;
+}
+#MobilePane .diamondCanvas {
+  width: 100% !important;
+}
+#MobilePane .indicator_wrapper .loaded {
+  background: #f00;
+}
+#MobilePane .indicator_wrapper {
+  z-index: 9999;
+  position: absolute;
+  margin-left: 0;
+  width: 100%;
+}
+#MobilePane .Phone,
+#MobilePane .Chat,
+#MobilePane .Skype,
+#MobilePane .Email {
+  float: left;
+  height: 45px;
+  margin-right: 0.5em;
+  width: 42px;
+}
+#MobilePane .Phone {
+  clear: both;
+  background-position: -283px -403px;
+}
+#MobilePane .Chat {
+  background-position: -401px -403px;
+}
+#MobilePane .Skype {
+  background-position: -520px -403px;
+}
+#MobilePane .RealJewel,
+#MobilePane .Rendered {
+  background-position: -665px -5px;
+  height: 60px;
+  margin-bottom: 1em;
+  width: 60px;
+  margin-right: 10px;
+  float: left;
+}
+#MobilePane .Certificate,
+#MobilePane .CMCert {
+  width: 60px !important;
+  height: 60px;
+  background-size: cover;
+}
+#MobilePane .Certificate.GIA {
+  background: url("https://ion.r2net.com/images/mobiletest/cert-gia.png")
+    no-repeat;
+}
+#MobilePane .Certificate.PinkCert {
+  background: url(https://ion.r2net.com/images/mobiletest/pinkCert.jpg)
+    no-repeat !important;
+  height: 44px !important;
+  background-size: cover !important;
+  width: 65px !important;
+}
+#MobilePane .CMCert {
+  background: url("https://ion.r2net.com/Images/diamonds/CMcert.jpg") no-repeat;
+}
+#MobilePane .Certificate.AGS {
+  background: url("https://ion.r2net.com/images/mobiletest/cert.jpg") no-repeat;
+}
+#MobilePane .Certificate.IGI {
+  background: url("https://ion.r2net.com/images/mobiletest/cert.jpg") no-repeat;
+}
+.MainIcons li a div.TwoDigits {
+  font-size: 0.7em;
+  line-height: 430%;
+  text-indent: 8%;
+}
+.MainIcons li a div.TwoDigits {
+  text-indent: 7%;
+}
+.MainIcons .Chat {
+  background-position: -184px -173px;
+  width: 65px;
+}
+#MobilePane .MainIcons .LogInIcon {
+  height: 27px !important;
+  left: 3px;
+  position: relative;
+  top: 6px;
+  display: none;
+}
+.MainIcons .Cart {
+  color: #fff;
+  font-family: arial;
+  font-size: 0.85em;
+  font-weight: bold;
+  height: 88px;
+  line-height: 378%;
+  text-indent: 10.6%;
+}
+.MainIcons .Fav.EmptyWishList {
+  background-position: -248px -173px;
+  cursor: default;
+  width: 86px;
+}
+.MainIcons .Fav {
+  background-position: -462px -173px;
+  color: #fff;
+  font-family: arial;
+  font-size: 0.85em;
+  font-weight: bold;
+  height: 88px;
+  line-height: 378%;
+  width: 92px;
+}
+.MainIcons .PhoneIcon {
+  background-position: -120px -114px;
+  position: relative;
+  left: 2px;
+}
+.MainIcons .Login {
+  background-position: -183px -174px;
+  width: 67px;
+}
+.MainIcons .Search {
+  background-position: -101px -171px;
+  width: 68px;
+}
+#MobilePane .MobileMenu li,
+#MobilePane .ItemPage li,
+#MobilePane .Gallery li,
+#MobilePane .RoundedConrners li {
+  display: list-item;
+}
+#MobilePane .MobileMenu li:first-child div.Header,
+#MobilePane .ItemPage li:first-child,
+#MobilePane .Gallery li:first-child div.Header,
+#MobilePane .RoundedConrners li:first-child {
+  border-top: medium none;
+}
+#MobilePane .MobileMenu li:last-child div.Header,
+#MobilePane .ItemPage li:last-child,
+#MobilePane .Gallery li:last-child div.Header,
+#MobilePane .RoundedConrners li:last-child div.Header {
+  border-bottom: medium none;
+}
+#MobilePane .MobileMenu li div.Header.ui-accordion-header-active,
+#MobilePane .Gallery li div.Header.ui-accordion-header-active {
+  border-bottom: 1px solid #bebebe !important;
+}
+#MobilePane .PaymentMethod .State {
+  display: none;
+}
+#MobilePane .MobileMenu li div.Header::after {
+  content: "î¤•";
+  font-family: "JamesAllenMobileMainFonts";
+  position: absolute;
+  top: 40%;
+  right: 5%;
+}
+#MobilePane .MobileMenu li div.HeaderCheck::after {
+  content: "î¤–";
+}
+#MobilePane .ItemPage li,
+#MobilePane .Gallery li div.Header,
+#MobilePane .Gallery li div.HeaderTopPage,
+#sideMenu .LogIn,
+#MobilePane .RoundedConrners li {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-bottom: 1px solid #ccc;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-color: #ddd;
+  border-image: none;
+  border-left: medium none #bebebe;
+  border-right: medium none #bebebe;
+  color: inherit;
+  cursor: pointer !important;
+  display: block;
+  font-weight: normal;
+  height: auto;
+  margin: 0;
+  opacity: inherit;
+  padding: 1em;
+  width: auto;
+}
+#MobilePane .mobile-menu-fn li div.Content {
+  display: none;
+  width: 100%;
+}
+#MobilePane .mobile-menu-fn li div.Content.content-open {
+  display: block;
+}
+#MobilePane .MobileMenu,
+#MobilePane .ItemPage,
+#MobilePane .Gallery,
+#MobilePane .RoundedConrners {
+  border: 1px solid #ddd;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+#MobilePane .MobileMenu {
+  border-width: 0;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+#MobilePane .ItemPage li div.Content,
+#MobilePane .Gallery li div.Content {
+  display: block;
+}
+#MobilePane .MobileMenu li div.Content,
+#MobilePane .ItemPage li div.Content,
+#MobilePane .Gallery li div.Content {
+  background: none repeat scroll 0 0 #dedede;
+  border: medium none;
+  color: #656565;
+  margin: 0;
+  overflow: hidden;
+  top: inherit;
+}
+#MobilePane .MobileMenu li div.menu-splash-link {
+  position: relative;
+  clear: both;
+}
+#MobilePane .MobileMenu li div.menu-splash-link .splash-link {
+  position: absolute;
+  z-index: 10;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+#MobilePane .MobileMenu .Content {
+  position: relative;
+}
+#MobilePane .MobileMenu .Content::after,
+#MobilePane .MobileMenu .Content::before {
+  position: absolute;
+  height: 20px;
+  content: "";
+  width: 100%;
+  z-index: 10;
+}
+#MobilePane .MobileMenu .Content::after {
+  box-shadow: inset 0 -20px 20px -20px #969696;
+  bottom: 0;
+}
+#MobilePane .MobileMenu .Content::before {
+  box-shadow: inset 0 20px 20px -20px #969696;
+  top: 0;
+}
+#MobilePane .MobileMenu li div.menu-splash-link a,
+#MobilePane .MobileMenu li div.menu-splash-link img {
+  padding: 0;
+  margin: 0;
+  display: block;
+  background: #fff;
+}
+#MobilePane .MobileMenu li div.WeddingContent .menu-splash-link .splash-link {
+  top: 35%;
+  right: 8%;
+  width: 37%;
+  text-align: center;
+}
+#MobilePane
+  .MobileMenu
+  li
+  div.EngagementContent
+  .menu-splash-link
+  .splash-link {
+  top: 30%;
+  left: 10%;
+  width: 48%;
+}
+#MobilePane .MobileMenu li div.GemstonesContent .menu-splash-link .splash-link {
+  top: 30%;
+  left: 10%;
+  width: 48%;
+}
+#MobilePane .MobileMenu li div.DiamondsContent .menu-splash-link .splash-link {
+  top: 30%;
+  right: 10%;
+  width: 29%;
+  text-align: center;
+}
+#MobilePane .Icon2 {
+  display: inline-block;
+  height: 74px;
+  position: absolute;
+  top: 0;
+  width: 80px;
+}
+.SortIcon {
+  background-position: -599px -50px;
+}
+#MobilePane .Icon.ClassicMen {
+  background-position: -525px -13px;
+}
+#MobilePane .Icon.CarvedMen {
+  background-position: -525px -53px;
+}
+#MobilePane .Icon.DiamondMen {
+  background-position: -525px -94px;
+}
+#MobilePane .Icon.AlternativeMen {
+  background-position: -525px -134px;
+}
+#MobilePane .Icon.Round {
+  background-position: -25px -26px;
+}
+#MobilePane .Icon.Princess {
+  background-position: -8px -90px;
+}
+#MobilePane .Icon.Emerald {
+  background-position: -8px -172px;
+}
+#MobilePane .Icon.Square {
+  background-position: -8px -256px;
+}
+#MobilePane .Icon.Oval {
+  background-position: -8px -337px;
+}
+#MobilePane .Icon.Radiant {
+  background-position: -98px -6px;
+}
+#MobilePane .Icon.Pear {
+  background-position: -98px -89px;
+}
+#MobilePane .Icon.Heart {
+  background-position: -95px -173px;
+}
+#MobilePane .Icon.Marquise {
+  background-position: -96px -255px;
+}
+#MobilePane .Icon.Cushion {
+  background-position: -96px -335px;
+}
+.OneCol li a {
+  width: auto !important;
+}
+.ChangeWidth li.Disabled {
+  color: #d2d2d2;
+}
+#MobilePane .MobileMenu li div.Content li,
+#MobilePane .Gallery li div.Content li {
+  background-color: inherit;
+}
+#MobilePane .MobileMenu .button,
+#MobilePane .Gallery .button {
+  float: left;
+  margin-right: 0;
+  position: relative;
+  width: 286px;
+  background: -moz-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#00ffffff',GradientType=0);
+  padding: 0.5em 0;
+  border: 1px solid #d2d2d2;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 10px 12px -8px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 0 10px 12px -8px rgba(0, 0, 0, 0.29);
+  box-shadow: 0 10px 12px -8px rgba(0, 0, 0, 0.29);
+}
+#MobilePane .MobileMenu .arrowIcon.up,
+#MobilePane .Gallery .arrowIcon.up {
+  position: relative;
+  top: -6px;
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+#MobilePane .MobileMenu .arrowIcon.down,
+#MobilePane .Gallery .arrowIcon.down {
+  background-position: -437px -14px;
+}
+#MobilePane .MobileMenu .button span,
+#MobilePane .Gallery .button span {
+  display: block;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+#MobilePane #MenuContainer li:last-child div.Content {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.MainLinks,
+.signUpFormFooter {
+  list-style: none outside none;
+  margin: 20px auto auto;
+  padding-left: 1.2em !important;
+  padding-right: 0;
+  padding-top: 0;
+  width: inherit;
+}
+.MainIcons .SearchIcon {
+  background-image: url("/Images/MobileTest/sprite320.png");
+  background-position: -30px -52px;
+  height: 22px;
+  position: relative;
+  top: 5px;
+  width: 21px;
+}
+.MainIcons .IconContainer {
+  position: relative;
+  top: 5px;
+}
+.signUpFormPopup {
+  width: 100%;
+  min-height: 200px;
+  background: #000;
+  opacity: 0.7;
+  z-index: 1000;
+  display: none;
+  left: 50% !important;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.signUpFormFooter {
+  background-color: #ddd;
+  color: #656565;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  margin: 5px 0;
+}
+.signUpFormFooter input[type="text"] {
+  font-size: 17px;
+  padding-top: 2px;
+  text-transform: none;
+}
+.AllRights {
+  color: #a3a3a3;
+  font-size: 30px;
+  text-align: center;
+}
+.MenuToggle {
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  padding-bottom: 0;
+}
+.MenuToggle .slim-icon-burger_menu {
+  margin-top: 4px;
+}
+.MenuToggle .slim-icon-burger_menu::before {
+  font-size: 28px;
+}
+#MobilePane .MainIcons .header-icon-wish {
+  position: relative;
+}
+#MobilePane .MainIcons .slim-icon-wish::before {
+  font-size: 30px;
+}
+#MobilePane .MainIcons .login-icon {
+  font-size: 33px;
+}
+#MobilePane .MainIcons .header-icon-wish .amount-holder,
+#MobilePane .MainIcons .header-icon-cart .amount-holder {
+  align-items: center;
+  background-color: #ff8081;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  height: 1rem;
+  justify-content: center;
+  width: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+}
+#MobilePane .MainIcons .header-icon-wish .amount-holder .amount-holder-text,
+#MobilePane .MainIcons .header-icon-cart .amount-holder .amount-holder-text {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Arial;
+}
+#MobilePane .MainIcons .empty-amount .amount-holder {
+  display: none;
+}
+#MobilePane .MainIcons .header-icon-cart {
+  position: relative;
+}
+#MobilePane .MainIcons .slim-icon-cart::before {
+  font-size: 30px;
+}
+#MobilePane .MainIcons .slim-icon-cs24 {
+  margin-top: 4px;
+}
+#MobilePane .MainIcons .slim-icon-cs24::before {
+  font-size: 23px;
+}
+#MobilePane .ja-icon-font,
+.ja-icon-font {
+  font-family: "JamesAllenFonts";
+  color: #909090;
+}
+#MobilePane .MenuToggle .Icon {
+  background-image: url("https://ion.r2net.com/images/mobiletest/sprite.png?v=16");
+  background-position: -17px -186px;
+  float: left;
+  height: 60px;
+  margin-right: 0;
+  margin-top: 13px;
+  width: 74px;
+  top: inherit;
+  position: inherit;
+}
+#MobilePane .MobileMenu .Diamonds,
+#MobilePane .MobileMenu .Gemstones,
+#MobilePane .MobileMenu .Engagement,
+#MobilePane .MobileMenu .Wedding,
+#MobilePane .MobileMenu .Rough,
+#MobilePane .MobileMenu .Mille,
+.open-side-menu .LogInIcon,
+#MobilePane .MobileMenu .PresetEngagement,
+#MobilePane .MobileMenu .Tuscan,
+#MobilePane .MobileMenu .Royal {
+  background-image: url("https://ion.r2net.com/images/mobiletest/sprite.png?v=16");
+  display: inline-block;
+  height: 85px;
+  position: absolute;
+  top: 27%;
+  width: 73px;
+}
+#MobilePane .Gallery .Title {
+  font-size: 1.2em;
+  padding-left: 32px;
+  text-transform: uppercase;
+}
+#MobilePane .MobileMenu .Arrow,
+.RoundedConrners li .Arrow {
+  background-image: url("https://ion.r2net.com/images/mobiletest/sprite.png?v=16");
+  background-position: -436px -11px;
+  float: right;
+  height: 28px;
+  width: 39px;
+}
+.Window.PopupStyle {
+  background-color: #656565;
+  background-color: #e4e4e4;
+  overflow: hidden;
+  position: relative;
+}
+.Window.PopupStyle:before {
+  background: radial-gradient(#fff 7%, #656565) repeat scroll 0 0
+    rgba(0, 0, 0, 0);
+  background: -webkit-radial-gradient(#fff 7%, #656565);
+  background: -o-radial-gradient(#fff 7%, #656565);
+  background: -moz-radial-gradient(#fff 7%, #656565);
+  height: 200%;
+  left: -100%;
+  position: absolute;
+  top: -75%;
+  width: 300%;
+}
+.Window .ScrollBackUp {
+  background-position: -421px -1290px;
+  bottom: 56px;
+  display: none;
+  padding: 7px;
+  position: fixed;
+  right: 14px;
+  z-index: 10;
+  background-size: 300px !important;
+  width: 30px;
+  height: 33px;
+  background-position: -514px -185px;
+}
+.Window .ScrollBackUp.showBack {
+  background-image: url("https://ion.r2net.com/images/mobiletest/menu_sprite5.png") !important;
+}
+.Window.PopupStyle .ClosePopup {
+  background-image: url("https://ion.r2net.com/images/mobiletest/menu_sprite.png");
+  background-position: -716px -1078px;
+  background-size: 753% auto;
+  display: none;
+  height: 26px;
+  position: absolute;
+  right: -1px;
+  top: 10px;
+  width: 33px;
+  z-index: 9;
+}
+#sideMenu {
+  display: none;
+}
+.open-side-menu #sideMenu {
+  display: block;
+}
+#menuContainer {
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  transition-property: all;
+  background-color: #ebebeb;
+  border-right: 1px solid #e4e4e4;
+  display: block;
+  margin-top: -0.6em;
+  position: fixed;
+  width: 85%;
+  z-index: 99999;
+  transform: translateX(-100%);
+}
+.open-side-menu #menuContainer {
+  transform: translateX(0%);
+  overflow-y: auto !important;
+  height: calc(100%);
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+#menuContainer.open-true::after {
+  content: "";
+  width: 20%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+}
+.LogoutLink .FullName {
+  display: inline-block;
+  max-width: 68%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.LogoutLink .Title {
+  float: right;
+  margin-right: 6%;
+  text-decoration: underline;
+}
+#MobilePane .Header {
+  height: 104px;
+  margin: auto;
+  width: 95%;
+}
+#MobilePane .mobile-menu-fn .HeaderCheck .Title {
+  font-weight: bold;
+}
+ul.Items {
+  display: inline-block;
+  list-style: none outside none;
+  padding: 0;
+  width: 100%;
+}
+#MobilePane .RoundedConrners ul.Items {
+  background-color: #fffee6;
+  overflow: scroll;
+}
+#MobilePane .RoundedConrners ul.Items li {
+  border: medium none;
+  font-size: 0.82em;
+}
+ul.Items li img {
+  border: 1px solid #d2d2d2;
+  cursor: pointer;
+  float: left;
+  margin-right: 15px;
+}
+.Items li:last-child {
+  border: medium none;
+  margin-bottom: 0;
+}
+.Items li {
+  -moz-box-sizing: border-box;
+  border-bottom: 1px solid #dadada;
+  float: left;
+  list-style: none outside none;
+  min-height: 88px;
+  padding: 15px 15px 24px;
+  position: relative;
+  width: 100%;
+}
+#MobilePane .MobileMenu li.Results,
+#MobilePane .Gallery li.Results,
+#MobilePane .shopping-cart li.Results,
+#MobilePane .Wishlist li.Results {
+  background-color: #fff;
+  padding: 0.7em 0.5em 0.7em 0.6em;
+  overflow-y: auto;
+  border-bottom: 0;
+}
+table.PaymentAdditions {
+  margin-bottom: 2em;
+}
+.RedNumber {
+  color: #ff6464 !important;
+}
+#MobilePane .Items li select {
+  margin-left: 1em;
+  margin-top: 13px;
+  padding: 2px;
+}
+#MobilePane .Items li select.RingSize {
+  height: auto;
+  width: auto;
+}
+#MobilePane .Items li select:focus {
+  outline: none;
+}
+#MainContainer .MobileMenu {
+  margin: 0 auto auto 0 !important;
+}
+#MobilePane .Header .Remove {
+  float: none;
+  font-size: inherit;
+  margin: 0 0 0 5px;
+  position: static;
+  text-decoration: none;
+}
+.SelectThisPopup,
+.MatchComplete,
+.SingleItemAdded {
+  height: auto !important;
+  margin: auto;
+  padding-bottom: 0 !important;
+}
+.ShareItemPagePopup .Icon,
+#MobilePane .CustomerService .Results .Buttons a div {
+  background-image: url("https://ion.r2net.com/images/mobiletest/sprite-share29.png");
+  display: inline-block;
+  height: 32px;
+  margin-right: 10px;
+  position: relative;
+  width: 31px;
+  top: 12px;
+  background-size: inherit !important;
+  float: none;
+}
+.Icon.Facebook {
+  background-position: -138px -3px !important;
+}
+.Icon.Skype {
+  background-position: -70px -3px !important;
+}
+.Icon.Phone {
+  background-position: -172px -3px !important;
+}
+.Icon.Chat {
+  background-position: -36px -3px !important;
+}
+.Icon.Phone {
+  background-position: -2px -3px !important;
+}
+.Icon.Twitter {
+  background-position: -172px -3px !important;
+}
+.Icon.Pinterest {
+  background-position: -206px -3px !important;
+}
+.Icon.GPlus {
+  background-position: -549px -3px !important;
+}
+.Icon.Email {
+  background-position: -104px -3px !important;
+}
+.Icon.WhatsApp {
+  background-image: url(https://ion.r2net.com/images/googlePageSpeed/whatsapp-icon.png);
+  display: inline-block;
+  height: 32px;
+  margin-right: 10px;
+  position: relative;
+  width: 31px;
+  top: 12px;
+  background-size: cover !important;
+  float: none;
+  background-position: 0 0 !important;
+}
+.Icon.SMS {
+  background-position: -37px -3px !important;
+}
+.ParametersPopup .bigButton,
+.MobilePopup .bigButton,
+.bigButton.MobileMoreResults {
+  clear: both;
+  display: block;
+  font-size: 0.9em;
+  margin: auto;
+  padding: 1em 0;
+  position: relative;
+  visibility: hidden;
+}
+.ParametersPopup,
+.ItemPagePopup,
+.MobilePopup,
+.ItemPageCMpopup {
+  display: none;
+}
+.MobilePopup.ChangeWidth .bigButton {
+  visibility: visible;
+}
+.ParametersPopup .bigButton.Disabled,
+.MobilePopup .bigButton.Disabled,
+.MobileMoreResults.Disabled,
+.smallButton.Disabled {
+  background: none repeat scroll 0 0 #e8e8e8 !important;
+  box-shadow: none !important;
+  height: 1.5em;
+  text-indent: -300%;
+}
+.smallButton.Disabled .Loader {
+  display: block;
+}
+.ParametersPopup .bigButton .Loader,
+.MobilePopup .bigButton .Loader,
+.smallButton .Loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto;
+  bottom: 0;
+  right: 0;
+  display: none !important;
+}
+.ParametersPopup ul.TwoCols li,
+.ChangeWidth li {
+  text-align: center;
+  width: 24%;
+}
+.ChangeWidth li a {
+  display: block;
+}
+.ChatNotAvailable .chat-mobile,
+.TGChatNotAvailable .chat-mobile,
+.XMasChatNotAvailable .chat-mobile,
+.WeatherChatNotAvailable .chat-mobile {
+  display: none;
+}
+.DisabledTop {
+  background-image: url("https://ion.r2net.com/images/ajax-loader.gif");
+  height: 16px;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center bottom;
+}
+.stop-scrolling {
+  overflow: hidden !important;
+  position: fixed !important;
+}
+#CampaignTermsPopup {
+  width: 82%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  left: 50% !important;
+  top: 35%;
+  padding-top: 1.2em;
+  font-size: 0.83em;
+}
+#MobileBanner {
+  background-size: 100%;
+  position: relative;
+}
+.campaign-wrapper {
+  position: relative;
+  padding-bottom: 90%;
+  height: 0;
+}
+.campaign-vertical,
+.campaign-orisontal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+.campaign-orisontal {
+  display: none;
+}
+.casa-pagina {
+  background-image: url("https://ion.r2net.com/Images/MobileTest/CasaPagina/MobileVertical.jpg");
+}
+#MobileBanner .campaignLink {
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  right: 0;
+}
+#MobileBanner .campaignTerms {
+  position: absolute;
+  display: block;
+  width: 28%;
+  height: 10%;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+.hijax-error-message > div[data-error-prop]::before {
+  content: attr(data-error-prop) ": ";
+  text-transform: capitalize;
+}
+.hijax-error-message .Title {
+  margin-bottom: 17px;
+}
+.hijax-error-message > div[data-error-prop] {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.express-shipping-go-to-gallery {
+  color: #ff8081;
+  border: 2px solid #ff8081;
+}
+.product-change-options > div,
+.product-change-options > div:only-child {
+  width: 100% !important;
+}
+.product-change-options > div:nth-child(2) {
+  margin-top: 10px;
+}
+@media screen and (max-width: 767px) and (min-width: 480px) and (min-height: 501px) and (orientation: portrait) {
+  body {
+    font-size: 17px;
+  }
+  #MobilePane .MobileMenu .Title,
+  #MobilePane .Gallery .Title {
+    padding-left: 45px;
+    font-size: 1.2em;
+  }
+  #MobileBanner {
+    background-size: 100%;
+  }
+  #MobileBanner .campaignLink {
+    height: inherit;
+    width: 80%;
+    float: left;
+  }
+  .Window .ClosePopup {
+    background-position: -650px -862px;
+    background-size: 1043% auto;
+    right: 5px;
+    top: 8px;
+  }
+  .LoginLogo {
+    height: 87px;
+    width: 98px;
+    margin-top: 150px;
+  }
+  .MainIcons .SearchIcon {
+    background-image: url("https://ion.r2net.com/Images/MobileTest/sprite480.png");
+    background-position: -43px -78px;
+    height: 32px;
+    top: 2px;
+    width: 37px;
+  }
+  .SpriteIcon1 {
+    background-size: 1053% auto !important;
+    height: 35px !important;
+    width: 42px !important;
+  }
+  .SpriteIcon2 {
+    background-size: 1122% auto !important;
+    height: 33px !important;
+    width: 38px !important;
+  }
+  .SpriteIcon3 {
+    background-size: 1612% auto;
+    height: 29px !important;
+    width: 29px !important;
+  }
+  .Icon.Facebook {
+    background-position: -210px -5px !important;
+  }
+  .Icon.Twitter {
+    background-position: -262px -5px !important;
+  }
+  .Icon.Pinterest {
+    background-position: -312px -5px !important;
+  }
+  .Icon.GPlus {
+    background-position: -833px -5px !important;
+  }
+  .Icon.Email {
+    background-position: -157px -5px !important;
+  }
+  .Icon.SMS {
+    background-position: -37px -3px !important;
+  }
+  .Icon.Phone {
+    background-position: -4px -5px !important;
+  }
+  .Icon.Chat {
+    background-position: -55px -5px !important;
+  }
+  .Icon.Skype {
+    background-position: -107px -5px !important;
+  }
+  .signUpFormFooter {
+    font-size: 24px;
+  }
+  #MobilePane .RoundedConrners .BottomContainer {
+    bottom: 10%;
+  }
+  .EmptyMessage .Buttons {
+    width: 149px;
+  }
+  .EmptyMessage .Buttons a {
+    display: inline-block;
+  }
+  .EmptyMessage .Buttons .Skype {
+    float: right;
+  }
+  .Window .ScrollBackUp {
+    bottom: 81px;
+    right: 24px;
+  }
+  #MobilePane input,
+  #MobilePane select,
+  #MobilePane textarea {
+    font-size: 18px;
+    height: 40px;
+  }
+  #MobilePane .RoundedConrners li.Review .bigButton {
+    padding: 12px 14px;
+  }
+  #MobilePane .shopping-cart .CheckoutButton {
+    padding: 11px 46px;
+  }
+  .Phone {
+    background-position: -122px -173px !important;
+  }
+  .Skype {
+    background-position: -224px -173px !important;
+  }
+  .Chat {
+    background-position: -173px -173px !important;
+  }
+  .Phone,
+  .Skype,
+  .Chat {
+    background-size: 942% auto !important;
+    height: 46px !important;
+    width: 47px !important;
+    margin-right: 2px !important;
+  }
+  .Arrow {
+    background-position: -270px -1px !important;
+  }
+  .Arrow.up {
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+  }
+  .Header .Engagement {
+    background-position: -3px -3px !important;
+  }
+  .Header .Diamonds {
+    background-position: -43px -1px !important;
+  }
+  .Header .Gemstones {
+    background-position: -85px -1px !important;
+  }
+  .Header .Wedding {
+    background-position: -126px -1px !important;
+  }
+  .Header .PresetEngagement {
+    background-position: -162px -1px !important;
+  }
+  .LogInIcon {
+    background-position: -73px -77px !important;
+  }
+  .arrowIcon {
+    background-position: -270px -1px !important;
+  }
+  .Icon {
+    background-position: -4px -67px !important;
+    margin-left: -4px;
+    margin-top: 0 !important;
+  }
+  .Logo {
+    background-position: -284px -189px !important;
+    background-size: 257% auto !important;
+    height: 38px !important;
+    width: 180px !important;
+  }
+  .Cart {
+    background-position: -247px -77px !important;
+  }
+  .Fav {
+    background-position: -200px -77px !important;
+  }
+  .PhoneIcon {
+    background-position: -180px 75px !important;
+  }
+  .Fav.EmptyWishList {
+    background-position: -108px -76px !important;
+  }
+  .Cart.EmptyCart {
+    background-position: -152px -76px !important;
+  }
+  #MobilePane .MobileMenu .button span,
+  #MobilePane .Gallery .button span {
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+  #MobilePane .MobileMenu li.Results,
+  #MobilePane .Gallery li.Results,
+  #MobilePane .shopping-cart li.Results,
+  #MobilePane .Wishlist li.Results {
+    padding: 0.7em 17px;
+  }
+  .LinesBackground.Details p,
+  .LinesBackground.Details table {
+    margin-bottom: 29px;
+  }
+  #MobilePane .Gallery li .Header .Title {
+    font-size: 0.9em !important;
+  }
+  #MainContainer .Banner {
+    margin-bottom: 13px;
+  }
+  .MainLinks {
+    padding-bottom: 15px !important;
+    margin-top: 32px;
+  }
+  .MainIcons li {
+    margin-left: 0.5em;
+  }
+  #MobilePane .MainIcons .LogInIcon {
+    height: 29px !important;
+    left: 5px;
+    position: relative;
+    top: 7px;
+  }
+  .AllRights {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  body .MobileIcon2 {
+    background-image: url("https://ion.r2net.com/images/mobiletest/menu480.png");
+    height: 29px;
+    width: 31px;
+  }
+  #CurrencyHeaderPane select {
+    margin-right: 22px !important;
+    margin-top: 13px !important;
+  }
+  #MobilePane .CustomerService .Results .Buttons a div {
+    margin-left: 1px;
+  }
+  #MobilePane .ItemPage .Title,
+  #MobilePane .RoundedConrners .Title {
+    background-size: 3% auto;
+  }
+  #MobilePane li.LinesBackground {
+    background-size: 3% auto;
+  }
+  #MobilePane .HAicon {
+    font-size: 70px;
+    height: 55px;
+    line-height: 55px;
+    width: 65px !important;
+  }
+  #MobilePane .Items li select {
+    margin-top: 13px;
+  }
+  #MobilePane .specialIcons.argyle {
+    border-radius: 32px;
+    font-size: 27px;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+  }
+  #MobilePane .Certificate,
+  #MobilePane .CMCert {
+    width: 60px !important;
+  }
+  #MobilePane .specialIcons {
+    margin-bottom: 0 !important;
+    font-size: 40px;
+    height: 19px;
+    line-height: 19px;
+    width: 29px;
+    font-family: "JamesAllenFonts";
+  }
+  #MobilePane .CMcert {
+    font-size: 113px;
+    line-height: 56px;
+  }
+  #MobilePane .PinkCert {
+    background-position: -570px -5px;
+    height: 55px;
+  }
+  #MobilePane .certificateLink {
+    font-size: 114px;
+    line-height: 57px;
+  }
+}
+@media screen and (max-width: 479px),
+  screen and (orientation: landscape) and (max-height: 500px) {
+  body {
+    font-size: small;
+  }
+  #MainContainer .Banner {
+    margin-bottom: 13px;
+  }
+  #MobilePane .RoundedConrners .PaymentMethod .Title .Tab {
+    border-bottom: 0.09em dashed;
+  }
+  .AllRights {
+    font-size: 0.9em;
+  }
+  .ParametersPopup,
+  .ItemPagePopup,
+  .MobilePopup {
+    top: 53%;
+  }
+  .ShipsBy {
+    background-position: -1px -121px !important;
+  }
+  .Arrow {
+    background-position: -177px 0 !important;
+  }
+  .Arrow.up {
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+  }
+  .Phone,
+  .Skype,
+  .Chat {
+    background-size: 891% auto !important;
+    height: 32px !important;
+    margin-right: -1px !important;
+    width: 33px !important;
+  }
+  .Phone {
+    background-position: -80px -258px !important;
+  }
+  .Skype {
+    background-position: -148px -258px !important;
+  }
+  .Chat {
+    background-position: -114px -258px !important;
+  }
+  .Header .Engagement {
+    background-position: 1px -1px !important;
+  }
+  .Header .Diamonds {
+    background-position: -26px -1px !important;
+  }
+  .Header .Gemstones {
+    background-position: -55px -1px !important;
+  }
+  .Header .Wedding {
+    background-position: -83px -1px !important;
+  }
+  .Header .PresetEngagement {
+    background-position: -109px 1px !important;
+  }
+  .arrowIcon {
+    background-position: -176px 0 !important;
+  }
+  .SortIcon {
+    background-position: -155px 0 !important;
+  }
+  .FiltersIcon {
+    background-position: 0 -73px !important;
+  }
+  .Icon {
+    background-position: 1px -49px !important;
+    margin-left: -4px;
+    margin-top: 3px !important;
+  }
+  .Logo {
+    background-size: 254% auto !important;
+    height: 27px !important;
+    width: 134px !important;
+  }
+  .Cart {
+    background-position: -163px -47px !important;
+  }
+  .Fav {
+    background-position: -130px -47px !important;
+  }
+  .Fav.EmptyWishList {
+    background-position: -70px -46px !important;
+  }
+  .Cart.EmptyCart {
+    background-position: -98px -47px !important;
+  }
+  #MobilePane .ItemPage .Buttons .Price .SelectThis {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  #MobilePane tr.Price td:last-child {
+    color: #f00;
+  }
+  .SpriteIcon1 {
+    background-size: 942% auto !important;
+    height: 29px !important;
+    width: 31px !important;
+  }
+  .SpriteIcon2 {
+    background-size: 1006% auto !important;
+    height: 24px !important;
+    width: 29px !important;
+  }
+  .SpriteIcon3 {
+    background-size: 1400% auto;
+    height: 19px !important;
+    width: 22px !important;
+  }
+  #MobilePane li.LinesBackground {
+    background-size: 4% auto;
+  }
+  #MobilePane .ItemPage .Title,
+  #MobilePane .RoundedConrners .Title {
+    background-size: 4% auto;
+  }
+}
+.bottom-popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #ededed;
+  z-index: 999;
+  left: 0;
+  top: 48px;
+  -webkit-transform: translateY(120%);
+  transform: translateY(120%);
+  transition: all 0.5s;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  padding-top: 15px;
+}
+.shipped-by-tooltip {
+  width: calc(100% + 22px);
+  height: auto;
+  padding: 15px 10px;
+  margin: -11px 0 11px -11px;
+  background-color: #fff;
+  color: #434b52;
+  border: 1px solid #e2e2e7;
+  text-align: left;
+  box-sizing: border-box;
+  position: relative;
+  display: none;
+}
+.shipped-by-tooltip::after {
+  content: "";
+  position: absolute;
+  bottom: -14px;
+  left: 270px;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #e2e2e7;
+  border-top: none;
+  border-left: none;
+  transform: rotate(45deg) translateX(-50%);
+  z-index: 10;
+  background-color: #fff;
+}
+.close-shipped-by-tooltip {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.shipped-by-tooltip-text-wrap {
+  width: 252px;
+  margin: 0 auto;
+  padding-left: 30px;
+}
+.shipped-by-tooltip-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.shipped-by-tooltip-description {
+  position: relative;
+}
+.shipped-by-tooltip-description > div {
+  font-size: 13px;
+  display: inline-block;
+}
+.ByChristmas .shipped-by-tooltip-image {
+  background: url(https://ion.r2net.com/images/christmas2017/product-icon.png?ver=45)
+    no-repeat center;
+  background-size: contain;
+}
+.ByNewYears .shipped-by-tooltip-image {
+  background: url(https://ion.r2net.com/images/NewYears2017/Mobile/Product-Icon.png)
+    no-repeat 0 0;
+  background-size: contain;
+  top: -5px;
+}
+.ByValentines .shipped-by-tooltip-image {
+  background: url(https://ion.r2net.com/images/valentines2017/Product-Icon.png)
+    no-repeat 0 0;
+  background-size: contain;
+  top: -1px;
+  width: 36px;
+  height: 53px;
+  position: absolute;
+  left: 2px;
+}
+.shipped-by-tooltip-image {
+  width: 51px;
+  height: 63px;
+  position: absolute;
+  left: -4px;
+  top: -16px;
+}
+.shipped-by-icon.ByXmasStones:before {
+  background-image: url(https://ion.r2net.com/images/christmas2017/product-icon.png);
+}
+.shipped-by-icon.ByNewYearsStones:before {
+  background-image: url(https://ion.r2net.com/images/christmas2016/product-icon.png);
+}
+.shipped-by-icon.ByValentinesStones:before {
+  background-image: url(https://ion.r2net.com/images/valentines2017/product-icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: -1px;
+  left: -10px;
+  height: 36px;
+}
+.shipped-by-icon:before {
+  content: "";
+  width: 23px;
+  height: 20px;
+  position: absolute;
+  background-size: cover;
+  top: -2px;
+  left: -17px;
+}
+.shipped-by-icon.ByXmasStones:after {
+  content: "Ship in time for Christmas";
+}
+.shipped-by-icon.ByNewYearsStones:after {
+  content: "Ship in time for New Year's";
+}
+.shipped-by-icon.ByValentinesStones:after {
+  content: "Ships in time for Valentine's day";
+}
+.shipped-by-icon:after {
+  padding-left: 10%;
+  font-size: 15px;
+}
+.ByValentinesRibbon {
+  background-image: url(https://ion.r2net.com/images/valentines2017/product-icon.svg);
+  width: 14px;
+  height: 20px;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 10px;
+  left: 10px;
+}
+.mobile-funnel-container .image.hasRibbon::after {
+  content: "";
+  width: 14px;
+  height: 20px;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 10px;
+  left: 10px;
+}
+.mobile-funnel-container .image.hasRibbon[ribbon="ByValentinesRibbon"]::after {
+  background-image: url(https://ion.r2net.com/images/valentines2017/product-icon.svg);
+}
+#MobilePane .BreadCrumbs {
+  font-size: 9px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  display: inline;
+}
+#MobilePane .BreadCrumbs span[data-current-page-bread-crumbs="1"] {
+  color: rgba(0, 0, 0, 0.6);
+}
+#sendNewAccount {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 30px;
+  padding-left: 1em;
+  width: 100%;
+}
+#loginDetailsForm input,
+#loginDetailsForm select,
+#loginDetailsForm textarea,
+#loginDetailsForm input[type="password"] {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 30px;
+  padding-left: 1em;
+  width: 100%;
+  border: 1px solid #d2d2d2 !important;
+  color: #656565;
+  font-size: 11px;
+  border-radius: 0 !important;
+}
+#loginDetailsForm input[type="submit"] {
+  color: #fff;
+}
+.clearable {
+  color: #fff;
+  background: -moz-linear-gradient(center top, #fff, #f4f4f4) repeat scroll 0 0 /
+    contain rgba(0, 0, 0, 0);
+  background: -webkit-linear-gradient(#fff, #f4f4f4);
+  background: -webkit-gradient(linear, top, bottom, from(#fff), to(#f4f4f4));
+  background: -ms-linear-gradient(top, #fff 0%, #f4f4f4 100%);
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 30px;
+  padding-left: 1em;
+  width: 100%;
+  border: 1px solid #d2d2d2 !important;
+  color: #656565 !important;
+  border-radius: 0 !important;
+}
+#loginDetailsForm input:not([type="radio"]):not([type="checkbox"]),
+#loginDetailsForm select,
+#loginDetailsForm textarea {
+  background: -moz-linear-gradient(center top, #fff, #f4f4f4) repeat scroll 0 0 /
+    contain rgba(0, 0, 0, 0);
+  background: -webkit-linear-gradient(#fff, #f4f4f4);
+  background: -webkit-gradient(linear, top, bottom, from(#fff), to(#f4f4f4));
+  background: -ms-linear-gradient(top, #fff 0%, #f4f4f4 100%);
+}
+#loginDetailsForm select {
+  -webkit-appearance: menulist;
+}
+#shippingAddressForm select,
+#billingAddressForm select {
+  -webkit-appearance: menulist;
+  border: 1px solid #d2d2d2;
+  border-radius: 0;
+  background: -webkit-linear-gradient(#fff, #f4f4f4);
+}
+#MobilePane .RoundedConrners li {
+  font-size: 1.2rem;
+}
+#MobilePane .RoundedConrners li .Header .Title {
+  font-size: 15px;
+}
+#MobilePane .RoundedConrners li .Content {
+  font-size: 13px;
+}
+/*!! ver.1.1 Landscape.css */
+@media screen and (orientation: landscape) {
+  .GoAllInHorisontal img {
+    display: block !important;
+  }
+  .img-item {
+    height: 220px !important;
+  }
+  .img-selected {
+    height: 303px !important;
+    width: 46.5% !important;
+  }
+  .img-border {
+    margin-left: 21% !important;
+  }
+  .header-text {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .form-cell-inline {
+    width: 48% !important;
+  }
+  .campaign-wrapper {
+    position: relative;
+    padding-bottom: 27%;
+    height: 0;
+  }
+  .campaign-vertical,
+  .campaign-orisontal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+  }
+  .campaign-vertical {
+    display: none;
+  }
+  .campaign-orisontal {
+    display: block;
+  }
+  .casa-pagina {
+    background-image: url("https://ion.r2net.com/Images/googlePageSpeed/CasaPagina/LOVE_HPBanner_MobileHorizontal.jpg");
+  }
+  #MobileBanner {
+    height: 100%;
+    background-size: 100%;
+    position: relative;
+  }
+  #MobileBanner .campaignLink {
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    right: 0;
+  }
+  #MobileBanner .campaignTerms {
+    position: absolute;
+    display: block;
+    width: 18%;
+    height: 10%;
+    bottom: 0;
+    left: auto;
+    z-index: 2;
+    right: 0;
+  }
+  .ItemPage div.Metal,
+  .ParametersPopup .Metal,
+  .ChangeMetal .Metal {
+    position: absolute;
+  }
+  .LoginLogo {
+    margin-top: 6px;
+  }
+  form .Inputs {
+    margin-bottom: 23px !important;
+  }
+  .mobile-campaign-image.def-image {
+    display: none;
+  }
+  .mobile-campaign-image.land-image {
+    display: block !important;
+  }
+  .outer-chat {
+    top: 90%;
+  }
+  #MainContainer .Banner img {
+    display: none !important;
+  }
+  #MainContainer .Banner {
+    background-image: url("https://ion.r2net.com/images/Val2015/HomepageLandscape1.jpg");
+    background-repeat: no-repeat;
+    background-size: 99% auto;
+    height: 62px;
+  }
+  #MainContainer .Banner.Summer {
+    background-image: url("https://ion.r2net.com/images/boxDaySummerMobileLand.jpg");
+  }
+  #MainContainer .Banner.Winter {
+    background-image: url("https://ion.r2net.com/images/boxDayWinterMobileLand.jpg");
+  }
+  #MainContainer .Banner.AfterHolidays2 {
+    background-image: url("https://ion.r2net.com/images/MobileTest/homepageLandscape7.jpg");
+  }
+  #MainContainer .Banner.AfterHolidays1 {
+    background-image: url("https://ion.r2net.com/images/MobileTest/homepageLandscape8.jpg");
+  }
+  #hideContent {
+    left: 40%;
+  }
+  #MobilePane .Items li.itemContainer,
+  #MobilePane li.Results .Items li.itemContainer {
+    width: 50%;
+  }
+  .ParametersPopup,
+  .ItemPagePopup,
+  .MobilePopup {
+    top: 15%;
+  }
+  #MobilePane .Gallery .Parameters ul {
+    width: auto;
+  }
+}
+.wishlist-item {
+  width: 50%;
+}
+@media screen and (orientation: landscape) and (min-width: 960px) and (max-height: 767px) {
+  #MobilePane .Items li.itemContainer,
+  #MobilePane li.Results .Items li.itemContainer {
+    width: 33%;
+  }
+}
+@media screen and (min-height: 480px) and (orientation: landscape) {
+  #MainContainer .Banner {
+    height: 90px;
+  }
+}
+/*!! ver.1.1 MainLinks.css */
+.MainLinks li {
+  margin-bottom: 2em;
+}
+.MainLinks li div,
+#MobilePane #sideMenu .LogIn {
+  font-size: 0.9em;
+  position: relative;
+}
+.MainLinks li .Title {
+  margin-left: 0;
+  vertical-align: middle;
+}
+#MobilePane .header-icons::before {
+  color: #909090;
+}
+#MobilePane .MobileMenu .Header {
+  display: table;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-bottom: 1px solid #ccc;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-color: #ddd;
+  border-image: none;
+  border-left: medium none #bebebe;
+  border-right: medium none #bebebe;
+  color: inherit;
+  cursor: pointer !important;
+  font-weight: normal;
+  height: auto;
+  margin: 0;
+  opacity: inherit;
+  padding: 1em;
+  width: 100%;
+}
+#MobilePane .MobileMenu .header-icons::before {
+  font-size: 2em;
+}
+#MobilePane .MobileMenu .slim-icon-gemstone::before {
+  font-size: 1.5em;
+}
+#MobilePane .MobileMenu .Title {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  padding-left: 0;
+}
+.MainLinks li .more-links-icons::before {
+  font-size: 2em;
+  color: #909090;
+}
+.MainLinks li .Education {
+  background-position: -92px -314px;
+}
+.MainLinks li .Expert {
+  background-position: -21px -105px;
+}
+.MainLinks li .About {
+  background-position: -102px -97px;
+  top: -21px;
+}
+.MainLinks li .RinkFree {
+  background-position: -182px -95px;
+  top: -20px;
+}
+.MainLinks li .NycShowroom {
+  background-position: -182px -95px;
+  top: -20px;
+}
+.MainLinks li .JAblog {
+  background-position: -182px -95px;
+  top: -20px;
+}
+.MainLinks li .Privacy {
+  background-position: -260px -94px;
+  top: -22px;
+}
+.MainLinks li .Secure {
+  background-position: -330px -98px;
+  top: -19px;
+}
+.MainLinks li .Faq {
+  background-position: -404px -96px;
+  top: -20px;
+}
+.MainLinks li .FullSite {
+  background-position: -478px -105px;
+  top: -13px;
+}
+.MainLinks li.Need {
+  position: relative;
+  margin-bottom: 40px;
+  width: 90%;
+}
+.MainLinks li.Need input {
+  background-color: #cacaca;
+  border-radius: 36px 36px 36px 36px;
+  display: block;
+  height: 70px;
+  margin: auto;
+  padding-left: 20px;
+  width: 86%;
+}
+.MainLinks li.Need .Background {
+  background-image: url("/Images/MobileTest/sprite320.png");
+  background-position: -30px -52px;
+  float: none;
+  height: 22px;
+  padding: 0;
+  position: absolute;
+  right: 14px;
+  top: 4px;
+  width: 21px;
+}
+.MobileMenu .icon-style,
+.MobileMenu .icon-style-pendant,
+.MobileMenu .icon-style-pairs,
+.MobileMenu .icon-Pair-Gem {
+  float: left;
+  width: 30px;
+  height: 22px;
+  line-height: 20px;
+  text-align: right;
+}
+.icon-style {
+  font-size: 26px;
+}
+.icon-style-pairs {
+  font-size: 30px;
+}
+.icon-True_hearts {
+  color: #ea5f61;
+}
+.icon-CanadaFlag {
+  color: #f00;
+}
+.icon-style-pendant {
+  font-size: 30px;
+}
+.icon-style-pairs.icon-Diamond_DYO.lab-created::before {
+  color: #4a77de;
+}
